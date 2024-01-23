@@ -11,18 +11,18 @@ import Blog from './pages/blog';
 
 const App: React.FC = () => {
   return (
-    <Router>
+  <Router>
       <div>
-        <Navigation />
+      <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/product" element={<Products />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About/>} />
-        </Routes>
+         </Routes>
       </div>
-    </Router>
+  </Router>
   );
 };
 
